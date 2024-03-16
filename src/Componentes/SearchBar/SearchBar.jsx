@@ -2,10 +2,9 @@ import css from './SearchBar.module.css';
 import { IoSearchOutline } from 'react-icons/io5';
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
-//npm install react-hot-toast
 import toast, { Toaster } from 'react-hot-toast';
 
-// схема валідації input
+
 const SearchFormSchema = Yup.object().shape({
   query: Yup.string().min(1, 'Nothing to search!').required('Required'),
 });
