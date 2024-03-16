@@ -5,7 +5,6 @@ import SearchBar from '../SearchBar/SearchBar';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import { fetchImages } from '../../image-api';
 import Loader from '../Loader/Loader';
-//npm install react-hot-toast
 import { Toaster } from 'react-hot-toast';
 import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
 import ImageModal from '../ImageModal/ImageModal';

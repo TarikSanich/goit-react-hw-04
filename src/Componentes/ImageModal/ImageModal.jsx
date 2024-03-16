@@ -1,5 +1,4 @@
 import css from './ImageModal.module.css';
-//npm install react-modal
 import Modal from 'react-modal';
 Modal.setAppElement('#root');
 
@@ -15,7 +14,7 @@ const ImageModal = ({
   const customStyles = {
     overlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.75)',
-      overflow: 'auto', // allow scrolling
+      overflow: 'auto', 
     },
     content: {
       top: '50%',
