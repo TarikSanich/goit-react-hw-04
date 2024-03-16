@@ -1,12 +1,12 @@
 import css from './App.module.css';
 import { useEffect, useState } from 'react';
-import SearchBar from '../SearchBar/SearchBar';
+import SearchBar from '../../components/SearchBar/SearchBar';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import { fetchImages } from '../../image-api';
-import Loader from '../Loader/Loader';
+import Loader from '../../components/Loader/Loader';
 import { Toaster } from 'react-hot-toast';
-import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
-import ImageModal from '../ImageModal/ImageModal';
+import LoadMoreBtn from '../../components/LoadMoreBtn/LoadMoreBtn';
+import ImageModal from '../../components/ImageModal/ImageModal';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
 export default function App() {
