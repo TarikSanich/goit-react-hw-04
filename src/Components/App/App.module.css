@@ -31,5 +31,5 @@ li {
   flex-direction: column;
   text-align: left;
   gap: 20px;
-  width: 100vh;
+  width: 100%;
 }

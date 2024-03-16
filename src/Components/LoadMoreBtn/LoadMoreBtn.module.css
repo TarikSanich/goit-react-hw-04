@@ -1,10 +1,7 @@
 .loadMoreBtn {
-    /* margin-top: 10px; */
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(10, 10, 190);
-    /* color: black; */
-    /* border: 2px solid lightslategray; */
     padding: 4px 8px;
     display: flex;
     align-items: center;
@@ -13,5 +10,4 @@
   .loadMoreBtn:hover,
   .loadMoreBtn:focus {
     background-color: rgb(66, 66, 231);
-    /* border: 2px solid gray; */
   }

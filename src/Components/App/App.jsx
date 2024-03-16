@@ -1,6 +1,5 @@
 import css from './App.module.css';
 import { useEffect, useState } from 'react';
-
 import SearchBar from '../SearchBar/SearchBar';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import { fetchImages } from '../../image-api';
@@ -20,7 +19,6 @@ export default function App() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
-    // пропустити монтування за умовою
     if (searchQuery === '') {
       return;
     }
@@ -41,13 +39,11 @@ export default function App() {
     getData();
   }, [searchQuery, page]);
 
-  //ф-ція submit форми
+
   const handleSearch = newQuery => {
-    //перевірка чи нове query при сабміті
     if (newQuery === searchQuery) {
       return;
     }
-    //початкові стани при новому сабміті
     setSearchQuery(newQuery);
     setPage(1);
     setImages([]);
