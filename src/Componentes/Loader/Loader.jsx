@@ -1,5 +1,4 @@
 import css from './Loader.module.css';
-// npm install react-loader-spinner --save
 import { Hourglass } from 'react-loader-spinner';
 
 export default function Loader() {

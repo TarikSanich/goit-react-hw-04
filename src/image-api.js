@@ -3,7 +3,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.unsplash.com';
 axios.defaults.params = {
-  client_id: 'Z_AJ42tCYRi9ez9R3kTo14ZRpWfnHT2xNXTyYUKcP6Q',
+  client_id: 'sUDhNPZ0JBVfyUZRvA8ZV_OvcRWtDaaxy3F25lpgTVY',
 };
 export const fetchImages = async (searchQuery, page) => {
   try {
